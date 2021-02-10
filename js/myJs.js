@@ -21,6 +21,9 @@ function firstQuestion(){
         imageHeight: 300,
         background: '#fff url("../img/iput-bg.jpg")',
         imageAlt: 'Custom image',
+        html: '<audio autoplay="" loop="" aria-hidden="true">' +
+                '<source src="../sound/sound.mp3" type="audio/mpeg">' +
+              '</audio>'
       }).then(function(){
         $('.content').show(200);
       })
